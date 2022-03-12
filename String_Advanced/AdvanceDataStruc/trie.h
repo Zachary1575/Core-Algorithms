@@ -8,6 +8,8 @@ using namespace std;
 class Trie {
 
     public:
+
+        //Seperate class to make the nodes for the Trie
         class Node {
             
             public:
@@ -28,7 +30,14 @@ class Trie {
         //Insert function for Trie
         virtual void insert(string word);
 
+        //Node count getter
+        virtual int getNodeCnt();
+
+        //Root getter
+        virtual Node getRoot();
+
     private:
         Node *root;
+        int NodeCount;
 
 };
