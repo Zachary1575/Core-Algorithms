@@ -34,7 +34,7 @@ class Trie {
         virtual int getNodeCnt();
 
         //Root getter
-        virtual Node getRoot();
+        //virtual Node getRoot();
 
     private:
         Node *root;

@@ -55,10 +55,10 @@ Trie::getNodeCnt()
 }
 
 //Getting the root
-Trie::getRoot()
-{
-    return this->root;
-}
+//Trie::getRoot()
+//{
+    //return this->root;
+//}
 
 //Main function for testing
 int main()
@@ -71,7 +71,7 @@ int main()
     obj1.insert("cape");
 
     cout << obj1.getNodeCnt() << endl;
-    cout << obj1.getRoot() << endl;
+    //cout << obj1.getRoot() << endl;
 
     cout << "End of the code!" << endl;
 
